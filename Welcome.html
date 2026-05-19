@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Mini Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <!-- marquee tag-->
+    <div class="container-1 text-white py-2">
+        <marquee>
+            Hurry Up!! Kumara Parvatha trekking has been organized this weekend by GQT Tours and Travels!! 
+            Contact 786545789 for more details.. only few seats left.. You can also chat with us through 
+            WhatsApp number 987456788..
+        </marquee>
+    </div>
+<!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom sticky-top">
+        <div class="container-fluid"></div>
+            <a class="navbar-brand fs-3" href="#">
+                <i class="fa-solid fa-plane-departure fa-lg text-white pe-2"></i>
+                GQT Tours and Travels
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#simple-navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="simple-navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#search">Search</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#dest">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fs-5" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- image slider-->
+    <div id="img-slider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#img-slider" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#img-slider" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#img-slider" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg" class="d-block w-100" alt="Image not available">
+                <div class="carousel-caption">
+                    <h1 class="display-4">Feel the Soul</h1>
+                    <p>Feel the soul in every beat, let the music speak what words cannot.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/33008780/pexels-photo-33008780.jpeg" class="d-block w-100" alt="Image not available">
+                <div class="carousel-caption">
+                    <h1 class="display-4">Ultimate Destinations</h1>
+                    <p>Not all who wander are lost, sometimes the journey itself is the ultimate destination.
+</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/35177640/pexels-photo-35177640.jpeg" class="d-block w-100" alt="Image not available">
+                <div class="carousel-caption">
+                    <h1 class="display-4">Thrilling Candle Light Dinner</h1>
+                    <p>A thrilling candlelight flickers between shadows and silence, where every glow hides a mystery and every moment feels alive.
+</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#img-slider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#img-slider" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- search-->
+
+    <section id="search" class="container2 py-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="display-4 text-warning">Search Your Destination</h2>
+                <p class="lead">Don’t just search for a destination, find a place where your heart feels at home.
+</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="input-group">
+                                <input type="search" class="form-control form-control-lg" placeholder="Search here for your favorite destination">
+                                <span class="input-group-text">
+                                    <a href="#"><i class="fa-solid fa-magnifying-glass fa-lg text-secondary"></i></a>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- create location cards-->
+
+    <section class="container3 py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center mt-3 bg-light p-3">
+                    <div class="card-body">
+                        <i class="fa-solid fa-location-arrow fa-4x text-info mb-3"></i>
+                        <h2 class="text-primary">Pick Location</h2>
+                        <p>The magic isn’t just in the moment, it’s in choosing the perfect place to feel it.
+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mt-3 bg-light p-3">
+                    <div class="card-body">
+                        <i class="fa-solid fa-building fa-4x text-info mb-3"></i>
+                        <h2 class="text-primary">Select Mode</h2>
+                        <p>In search mode, every step brings you closer to a place that feels meant for you.
+</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center mt-3 bg-light p-3">
+                    <div class="card-body">
+                        <i class="fa-solid fa-plane-departure fa-4x text-info mb-3"></i>
+                        <h2 class="text-primary">Get Ready to Fly</h2>
+                        <p>Get ready to fly, because your dreams are waiting beyond the horizon. ✈️✨
+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- create popular places -->
+
+    <section id="dest" class="container4 py-5">
+        <div class="text-center mb-5">
+            <h2 class="display-4"><span class="text-success">Popular</span> <span class="text-primary">Destinations</span></h2>
+            <p class="lead">Dream big, work hard, stay humble.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mt-3">
+                    <img src="https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/delhi.jpg" class="card-img-top" height="300px" alt="Image not available">
+                    <div class="card-body">
+                        <h3 class="card-title">Himachal Pradesh</h3>
+                        <p class="card-text">Himachal Pradesh is a land where mountains touch the sky, rivers sing through valleys, and every corner feels like a peaceful escape into nature’s beauty.</p>
+                        <button class="btn btn-success btn-sm">Read More >></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mt-3">
+                    <img src="https://protravelguide.co.uk/wp-content/uploads/2012/03/Taj-Mahal.jpg" class="card-img-top" height="300px" alt="Image not available">
+                    <div class="card-body">
+                        <h3 class="card-title">Lovely Ladakh</h3>
+                        <p class="card-text">Lovely Ladakh, where every road leads to serenity and every view feels like a dream painted in the colors of the sky.</p>
+                        <button class="btn btn-success btn-sm">Read More >></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mt-3">
+                    <img src="https://tse1.mm.bing.net/th/id/OIP.dBtpp1c4DwnFxOuV-x4qWwHaEy?w=1126&h=729&rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" height="300px" alt="Image not available">
+                    <div class="card-body">
+                        <h3 class="card-title">Silent Shimla</h3>
+                        <p class="card-text">Silent Shimla, where the whispers of the hills speak louder than the noise of the world.</p>
+                        <button class="btn btn-success btn-sm">Read More >></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <button class="btn btn-dark btn-lg"><i class="fa fa-play me-2"></i>Start Booking</button>
+        </div>
+    </section>
+<!-- creating social media icons-->
+    <section class="container-5 text-center bg-light p-5">
+        <h1 class="text-primary">Follow GQT Tours and Travels</h1>
+        <p class="text-success">Follow the journey, not just the destination — explore the world with GQT Tours and Travels. ✈️🌍</p>
+        <div class="d-flex justify-content-center">
+            <i class="fab fa-instagram fa-4x text-danger m-3"></i>
+            <i class="fab fa-facebook-square fa-4x text-primary m-3"></i>
+            <i class="fab fa-youtube fa-4x text-danger m-3"></i>
+            <i class="fa-brands fa-square-x-twitter fa-4x m-3"></i>
+            <i class="fab fa-google-plus-square fa-4x text-danger m-3"></i>
+        </div>
+    </section>
+
+    <!-- craeting gallery section -->
+
+    <section id="gallery" class="container py-5">
+        <div class="text-center mb-4">
+            <h5 class="display-4"><span class="text-warning">Photo</span> <span class="text-primary">Gallery</span></h5>
+            <p class="lead">Every photo holds a story, capturing moments that words can never fully express.
+</p>
+        </div>
+        <div class="row g-3">
+            <div class="col-md-3"><img src="https://voiceofadventure.com/wp-content/uploads/2022/07/stone-chariot-courtyard-vittala-temple-sunset-hampi-karnataka-india_211251-1235.jpg" class="img-fluid" alt="Image not available"></div>
+            <div class="col-md-3"><img src="https://templeinkarnataka.com/wp-content/uploads/2024/08/Vitthala-Temple-Hampi.webp" class="img-fluid" alt="Image not available"></div>
+            <div class="col-md-3"><img src="https://www.tusktravel.com/blog/wp-content/uploads/2021/06/Murudeshwar-Places-to-See-in-Karnataka.jpg" class="img-fluid" alt="Image not available"></div>
+            <div class="col-md-3"><img src="https://tse1.mm.bing.net/th/id/OIP.Jm0Tr2pg9Tnk4reiM-ysDwHaEM?rs=1&pid=ImgDetMain&o=7&rm=3" class="img-fluid" alt="Image not available"></div>
+            <div class="col-md-3"><img src="https://travelogyindia.b-cdn.net/blog/wp-content/uploads/2016/02/GolGumbaz-Bijapur.jpg" class="img-fluid" alt="Image not available"></div>
+            <div class="col-md-3"><img src="https://www.trawell.in/admin/images/upload/073237688Badami_Main.jpg" class="img-fluid" alt="Image not available"></div>
+            <div class="col-md-3"><img src="https://tse1.mm.bing.net/th/id/OIP.hNLbhT-3QRY5tlJqKqYCEQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" class="img-fluid" alt="Image not available"></div>
+            <div class="col-md-3"><img src="https://www.caleidoscope.in/wp-content/uploads/2021/05/Historical-Places-in-Karnataka-Virupakshas-Temple.jpg" class="img-fluid" alt="Image not available"></div>
+     
+    
+    <div class="col-md-3"><img src="https://tse1.mm.bing.net/th/id/OIP.TBu-u1nPHyVrNPil2WD-HQHaFb?pid=ImgDet&w=474&h=347&rs=1&o=7&rm=3" class="img-fluid" alt="Image not available"></div>
+    <div class="col-md-3">
+        <img src="https://www.tripsavvy.com/thmb/c82_3blMe0hnITBJM7Nu8mBvQEM=/937x0/filters:no_upscale():max_bytes(150000):strip_icc()/148804275-56a3c0543df78cf7727f0434.jpg" class="img-fluid" alt="Image not available">
+    </div>
+    <div class="col-md-3">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.yxZ-TqlWSswvxNkwoPTDegHaEJ?rs=1&pid=ImgDetMain&o=7&rm=3" class="img-fluid" alt="Image not available">
+    </div>
+   </div>
+    </section>
+
+    <!-- creating contact section-->
+<section id="contact" class="p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mt-3">
+                    <div class="card-body bg-info text-center text-white">
+                        <i class="fa fa-envelope fa-4x"></i>
+                        <h2>Contact us for Bookings</h2>
+                        <p>Contact us today for bookings and let your dream journey begin. ✈️🌍
+</p>
+                    </div>
+                </div>
+                <ul class="list-group mt-3">
+                    <li class="list-group-item">
+                        <h3>Location</h3>
+                    </li>
+                    <li class="list-group-item">GQT Tours and Travels</li>
+                    <li class="list-group-item">Yelahanka New Town, Bangalore</li>
+                    <li class="list-group-item">Karnataka, India</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card mt-3">
+                    <div class="card-header bg-info text-white text-center">
+                        <h3>Contact Us</h3>
+                    </div>
+                    <div class="card-body bg-light">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Enter Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Enter Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control" placeholder="Enter Your Phone Number">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Enter preferred destination">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="5" placeholder="Share More Details"></textarea>
+                            </div>
+                            <div class="d-grid gap-2 mt-2">
+                                <button type="submit" class="btn btn-outline-info px-5">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- locate us on google map-->
+
+<section>
+    <div class="m-2">
+        <p class="h2 text-danger m-2">Locate us on Google Map</p>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.005977982686!2d77.58328777367385!3d13.098807512079407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1920f50b395f%3A0x50fe874d0ef4b524!2sGlobal%20Quest%20Technologies!5e0!3m2!1sen!2sin!4v1774422432173!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+    </div>
+</section>
+
+<footer class="p-3 mt-3 bg-secondary text-white text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Copyright &copy; 2025, GQT Tours and Travels</h3>
+                <h6>All Rights Reserved</h6>
+                <h6>Developed & Maintained by Global Quest Technologies</h6>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
